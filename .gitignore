@@ -1,4 +1,4 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+-# See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
 */**/node_modules
@@ -43,3 +43,14 @@ analysis/index.html
 .husky
 build/
 *.lock
+
+.next/
+public/sw.js
+public/sw.js.map
+public/profile/
+public/workbox-*
+locale/*.js
+
+
+
+
